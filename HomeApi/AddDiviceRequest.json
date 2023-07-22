@@ -1,0 +1,10 @@
+{
+    "name": "Чайник",
+    "manufacturer": "Bosch",
+    "model": "G-022",
+    "serialNumber": "g56884g-sn2",
+    "currentVolts": 220,
+    "gasUsage": "false",
+    "location": "Kitchen"
+
+}
