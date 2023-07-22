@@ -14,6 +14,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
+using FluentValidation;
+using FluentValidation.AspNetCore;
+using HomeApi.Contracts.Models.Validation;
 
 namespace HomeApi
 {
@@ -56,7 +59,10 @@ namespace HomeApi
             // Подключаем автомаппинг
             var assembly = Assembly.GetAssembly(typeof(MappingProfile));
             services.AddAutoMapper(assembly);
-         
+            // Подключаем валидацию
+            services.AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<AddDeviceRequestValidator>());
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
