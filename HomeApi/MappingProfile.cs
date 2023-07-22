@@ -15,7 +15,7 @@ namespace HomeApi
         /// </summary>
         public MappingProfile()
         {
-            CreateMap<AddDeviceRequest, AddDeviceRequest>();
+            
             CreateMap<Address, AddressInfo>();
             CreateMap<HomeOptions, InfoResponse>()
                 .ForMember(m => m.AddressInfo,

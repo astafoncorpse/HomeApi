@@ -48,7 +48,7 @@ namespace HomeApi.Controllers
             if (request.CurrentVolts < 120)
             {
                 // Добавляем для клиента информативную ошибку
-                ModelState.AddModelError("currentVolts", "Устройства с напряжением меньше 120 вольт не поддерживаются!");
+                ModelState.AddModelError("CurrentVolts", "Устройства с напряжением меньше 120 вольт не поддерживаются!");
                 return BadRequest(ModelState);
             }
 
