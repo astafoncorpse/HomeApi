@@ -1,4 +1,5 @@
 {
+  
     "Name": "Чайник",
     "Manufacturer": "Bosch",
     "Model": "G-022",
@@ -6,5 +7,5 @@
     "CurrentVolts": 220,
     "GasUsage": false,
     "Location": "Kitchen"
-
+  
 }

@@ -15,12 +15,14 @@ namespace HomeApi.Controllers
     public class DevicesController : ControllerBase
     {
         private IOptions<HomeOptions> _options;
+        private IOptions<AddDeviceRequest> _request;
         private IMapper _mapper;
 
-        public DevicesController(IOptions<HomeOptions> options, IMapper mapper)
+        public DevicesController(IOptions<HomeOptions> options, IMapper mapper, IOptions<AddDeviceRequest> request)
         {
             _options = options;
             _mapper = mapper;
+            _request = request;
         }
 
         /// <summary>
