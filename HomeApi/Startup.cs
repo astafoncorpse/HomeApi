@@ -48,7 +48,7 @@ namespace HomeApi
                 opt.Area = 120;
             });
 
-
+            services.Configure<AddDeviceRequest>(Configuration);
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
@@ -57,7 +57,7 @@ namespace HomeApi
             // Подключаем автомаппинг
             var assembly = Assembly.GetAssembly(typeof(MappingProfile));
             services.AddAutoMapper(assembly);
-            services.Configure<AddDeviceRequest>(Configuration);
+         
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
