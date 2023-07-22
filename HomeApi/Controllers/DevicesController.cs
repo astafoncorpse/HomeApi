@@ -52,7 +52,7 @@ namespace HomeApi.Controllers
                 return BadRequest(ModelState);
             }
 
-            return StatusCode(200, $"Устройство {request.Name} добавлено!");
+            return StatusCode(200, $"Устройство {request.Name} добавлено!"); 
         }
     }
 }
