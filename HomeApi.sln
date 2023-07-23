@@ -5,7 +5,9 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeApi", "HomeApi\HomeApi.csproj", "{F58DC068-55B0-400B-A6AB-E204D1667078}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeApi.Contracts", "HomeApi.Contracts\HomeApi.Contracts.csproj", "{018602C4-51FB-460C-BD2F-3246AD4EF153}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeApi.Contracts", "HomeApi.Contracts\HomeApi.Contracts.csproj", "{018602C4-51FB-460C-BD2F-3246AD4EF153}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeApi.Data", "HomeApi.Data\HomeApi.Data.csproj", "{5F8B99E7-82BF-4D5B-8152-0E986D1AB922}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{018602C4-51FB-460C-BD2F-3246AD4EF153}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{018602C4-51FB-460C-BD2F-3246AD4EF153}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{018602C4-51FB-460C-BD2F-3246AD4EF153}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F8B99E7-82BF-4D5B-8152-0E986D1AB922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F8B99E7-82BF-4D5B-8152-0E986D1AB922}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F8B99E7-82BF-4D5B-8152-0E986D1AB922}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F8B99E7-82BF-4D5B-8152-0E986D1AB922}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

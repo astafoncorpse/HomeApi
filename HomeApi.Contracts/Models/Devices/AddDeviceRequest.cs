@@ -21,6 +21,7 @@ namespace HomeApi.Contracts.Devices
         public bool GasUsage { get; set; }
         [Required]
         public string Location { get; set; }
+        public string RoomLocation { get; set; }
     }
 
 }
