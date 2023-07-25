@@ -16,7 +16,10 @@ namespace HomeApi.Contracts.Models.Validation
        "Кухня",
        "Ванная",
        "Гостиная",
-       "Туалет"
+       "Туалет",
+       "Kitchen",
+       "Bathroom",
+        "livingroom"
    };
     }
 }
