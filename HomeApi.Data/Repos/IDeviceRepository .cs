@@ -1,11 +1,10 @@
-﻿using HomeApi.Data.Models;
+﻿using HomeApi.Controllers;
+using HomeApi.Data.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using HomeApi.Controllers;
-
 
 
 namespace HomeApi.Data.Repos

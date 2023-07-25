@@ -1,4 +1,5 @@
-﻿using HomeApi.Data.Models;
+﻿using HomeApi.Controllers;
+using HomeApi.Data.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;

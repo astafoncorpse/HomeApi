@@ -9,10 +9,11 @@ namespace HomeApi.Contracts.Models.Rooms
     /// <summary>
     /// Запрос для обновления свойств подключенного устройства
     /// </summary>
-    public class EditDeviceRequest
+    public class EditRoomRequest
     {
-        public string NewRoom { get; set; }
         public string NewName { get; set; }
-        public string NewSerial { get; set; }
+        public int NewArea { get; set; }
+        public bool NewGasConnected { get; set; }
+        public int NewVoltage { get; set; }
     }
 }

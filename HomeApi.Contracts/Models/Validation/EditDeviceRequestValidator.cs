@@ -1,5 +1,5 @@
 ﻿using FluentValidation;
-using HomeApi.Contracts.Models.Rooms;
+using HomeApi.Contracts.Models.Devices;
 using System;
 using System.Collections.Generic;
 using System.Linq;
